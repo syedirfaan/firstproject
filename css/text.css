@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+}
+p {
+    text-transform: capitalize;
+}
