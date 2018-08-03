@@ -1,4 +1,4 @@
-<!--Specify that text in the <p> element should wrap, even if it needs to split in the middle of a word.-->
+<!--With the transform property, rotate the <div> element 90deg around its Z-axis.-->
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -7,14 +7,16 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
     </head>
-    <style>
-    p {
-    width: 150px; 
-    border: 1px solid #000000;
-    word-wrap: break-word;
+    <style> 
+    div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    transform: rotateZ(90deg);
     }
     </style>
     <body>
-    <p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+    <div>This is a div element</div>
     </body>
     </html>

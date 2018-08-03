@@ -1,4 +1,4 @@
-<!--Set the text color for the page to "red", and the text color for <h1> to "blue".-->
+<!--Specify that the overflowed content for the <p> element should be signaled with an ellipsis (...)-->
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -8,16 +8,15 @@
         <title>Document</title>
     </head>
     <style>
-    body {
-    color: red;
-    }
-    h1 {
-    color: blue;
+    p {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
     }
     </style>
     <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <p>This is another paragraph.</p>
+    <p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
     </body>
     </html>

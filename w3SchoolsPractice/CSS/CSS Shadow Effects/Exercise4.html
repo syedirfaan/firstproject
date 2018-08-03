@@ -1,4 +1,4 @@
-<!--Specify that text in the <p> element should wrap, even if it needs to split in the middle of a word.-->
+<!--Set a "10px" horizontal, and "10px" vertical, box shadow for the <div> element.-->
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -8,13 +8,15 @@
         <title>Document</title>
     </head>
     <style>
-    p {
-    width: 150px; 
-    border: 1px solid #000000;
-    word-wrap: break-word;
+    div {
+    box-shadow: 10px 10px;
     }
     </style>
     <body>
-    <p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+    <div style="background-color: lightblue; width: 350px; padding: 15px;">
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    </div>
     </body>
     </html>

@@ -1,4 +1,4 @@
-<!--Specify that text in the <p> element should wrap, even if it needs to split in the middle of a word.-->
+<!--Set a linear gradient background for the <div> element, going from the top to bottom, transitioning from "rgba(0,255,0,0.2)" to "rgba(0,255,0,1)".-->
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -8,13 +8,12 @@
         <title>Document</title>
     </head>
     <style>
-    p {
-    width: 150px; 
-    border: 1px solid #000000;
-    word-wrap: break-word;
+    div {
+    background: linear-gradient(rgba(0,255,0,0.2), rgba(0,255,0,1));
     }
     </style>
+    
     <body>
-    <p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+    <div style="height:200px"></div>
     </body>
     </html>

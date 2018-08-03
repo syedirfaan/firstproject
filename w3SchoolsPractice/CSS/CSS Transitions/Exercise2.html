@@ -1,0 +1,26 @@
+<!--Specify that the transition of the <div> element should have a "ease-in-out" speed curve.-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <style> 
+    div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+    }
+    div:hover {
+    width: 300px;
+    }
+    </style>
+    <body>
+    <div></div>
+    <p>Hover over the div element above.</p>
+    </body>
+    </html>
